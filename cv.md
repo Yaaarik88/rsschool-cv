@@ -27,8 +27,8 @@ Not yet
 ## Courses:
 * Simulators HTML and CSS in HTMLAcademy
 * Video curses by Git [https://www.youtube.com/watch?v=6i0Wg-Pohg8] on the You-Tube channel RC School 
-* Tutorial by HTML and CSS from the publication **O'Relly**
-===
+* Tutorial by HTML and CSS from the publication **O'Relly**  
+
 ## Language:
 * Russian-native
 * English-A2
