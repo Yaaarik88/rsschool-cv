@@ -2,7 +2,7 @@
 Future Junior Frontend Developer
 ## Contact information:
 **Phone:** +79522983721  
-
+ 
 **E-mail:** stashkov88yasik@gmail.com  
 
 **Telegram:** @YaRiK88888888  
@@ -20,7 +20,8 @@ Sociable, cheerful, purposeful, I easily find a common language even with a dog)
 * Markdown
 * HTML, CSS
 * Git
-* VSCode
+* VSCode  
+
 ## Code example:
 Not yet  
 
