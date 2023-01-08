@@ -1,39 +1,18 @@
-body{
-    margin:0;  
-}
-header {
-    width: 100%;
-    height: 50px;
-    background-color: #e6e6e6;
-  }
-
-  .nav__list {
+.nav__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0;
     padding: 0;
     list-style: none;
-  }
-  .nav a {
-    padding: 14px 10px;
-    line-height: 50px;
-    color: black;
-  }
-  .nav a:hover {
-    background-color: #f2c100;
-  }
-  .nav a:active {
-    color: white;
-    text-decoration: none;
-  }
-  .center {
-        text-align: center;
-        width:600px;
-        margin: auto;
 }
 
-main {
-    background-image: url("https://damion.club/uploads/posts/2022-09/thumbs/1663880051_60-damion-club-p-fon-dlya-rezyume-oboi-64.png");
-    margin-top: 0px;
+.nav a {
+padding: 14px 10px;
+line-height: 50px;
+color: black;
+}
+
+.nav a:hover {
+background-color: #f2c100;
 }
