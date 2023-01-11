@@ -1,5 +1,6 @@
 body{
   margin:0;
+  background-color: #ffffff;
 }
 header {
   width: 100%;
@@ -10,16 +11,22 @@ header {
 .nav__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
 }
+.nav-item {
+  display: block;
+  height: 100%;
+  flex-grow: 1;
+}
 
 .nav a {
-  padding: 14px 10px;
+  display:flex;
   line-height: 50px;
   color: black;
+  justify-content: center;
 }
 
 .nav a:hover {
@@ -29,3 +36,10 @@ header {
   color: white;
   text-decoration: none;
 }
+
+.avatar {
+  border-radius: 60%;
+  border: 5px solid #ffffff; 
+  box-shadow: 2px 1px 5px #a5a4a4;
+}
+
