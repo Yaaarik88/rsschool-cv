@@ -107,3 +107,54 @@ header {
 .skill-set li:hover {
   background:#f2c100;
 }
+
+.Contacts-list {
+  width: 15%;
+  margin: 0;
+  counter-reset: li;
+  list-style: none;
+  background:#ffffff;
+  padding: 10px;
+}
+
+.Contacts-list li {
+  position: relative;
+  margin: 0 0 10px 2em;
+  padding: 4px 8px;
+  border-top: 2px solid #ffffff;
+  transition: .3s linear;
+}
+
+.Contacts-list li:last-child {
+  margin-bottom: 0;
+}
+
+.Contacts-list li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  top: -2px;
+  left: -2em;
+  width: 2em;
+  box-sizing: border-box;
+  margin-right: 8px;
+  padding: 4px;
+  border-top: 2px solid #787A77;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  transition: .3s linear;
+}
+
+.Contacts-list li:hover {
+  border-top: 2px solid #f2c100;
+}
+
+.Contacts-list li:hover:before {
+  border: 2px solid #f2c100;
+  background:#eecd4bba;
+}
