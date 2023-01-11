@@ -17,9 +17,11 @@ header {
   list-style: none;
 }
 .nav-item {
+  display: flex;
   display: block;
   height: 100%;
   flex-grow: 1;
+  justify-content: space-between;
 }
 
 .nav a {
@@ -27,6 +29,7 @@ header {
   line-height: 50px;
   color: black;
   justify-content: center;
+  font-weight:bold;
 }
 
 .nav a:hover {
@@ -40,6 +43,67 @@ header {
 .avatar {
   border-radius: 60%;
   border: 5px solid #ffffff; 
-  box-shadow: 2px 1px 5px #a5a4a4;
+  box-shadow: 2px 1px 5px #f2c100;
 }
 
+
+/*.main {
+  margin-bottom: auto;
+}
+*/
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.section-title {
+  margin-bottom: 20px;  
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #000000;
+}
+
+.section-subtitle {
+  margin-top: 20px;
+  color: #000000;
+  line-height: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid #f2c100;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;  
+  text-transform: uppercase;
+}
+
+.skill-set li {
+  background:#e6e6e6;
+	border-radius:5px;
+	color:rgb(0, 0, 0);
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+.skill-set li:hover {
+  background:#f2c100;
+}
