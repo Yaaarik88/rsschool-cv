@@ -1,6 +1,9 @@
 body{
   margin:0;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 header {
   width: 100%;
@@ -16,6 +19,7 @@ header {
   padding: 0;
   list-style: none;
 }
+
 .nav-item {
   display: flex;
   display: block;
@@ -45,12 +49,6 @@ header {
   border: 5px solid #ffffff; 
   box-shadow: 2px 1px 5px #f2c100;
 }
-
-
-/*.main {
-  margin-bottom: auto;
-}
-*/
 
 .main-container {
   display: flex;
@@ -93,6 +91,24 @@ header {
   text-transform: uppercase;
 }
 
+.main-points {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 600px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div-contacts, 
+.div-about-myself,
+.div-skills,
+.div-code,
+.div-courses,
+.div-language {
+width: 30%;
+}
+
 .skill-set li {
   background:#e6e6e6;
 	border-radius:5px;
@@ -107,7 +123,7 @@ header {
 .skill-set li:hover {
   background:#f2c100;
 }
-
+/*Список контактов*/
 .Contacts-list {
   width: 15%;
   margin: 0;
@@ -157,4 +173,16 @@ header {
 .Contacts-list li:hover:before {
   border: 2px solid #f2c100;
   background:#eecd4bba;
+}
+/* Подвал*/
+.footer{
+  display: flex;
+  margin:0;
+  background-color: #e6e6e6;
+  justify-content:space-between ; 
+}
+
+.footer-name{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+ font-size: 20px;
 }
